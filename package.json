@@ -2,12 +2,19 @@
   "name": "template-next-chakra",
   "version": "0.1.0",
   "private": true,
+  "description": "Template with Next.js and Chakra UI",
+  "repository": "https://github.com/ekaone/template-next-chakra.git",
+  "bugs": {
+    "url": "https://github.com/ekaone/template-next-chakra/issues"
+  },
+  "homepage": "https://curiosityrover.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "author": "Eka Prasetia <@twekaone>",
   "dependencies": {
     "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
@@ -21,6 +28,7 @@
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
     "typescript": "5.0.4"
   }
 }
